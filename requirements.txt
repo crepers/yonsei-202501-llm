@@ -1,0 +1,20 @@
+# requirements.txt
+
+# Google Agent Development Kit (Core Framework)
+google-adk
+
+# For reading environment variables from .env file
+python-dotenv
+
+# Google Cloud client for BigQuery interaction
+# google-auth is a dependency of this, so it's implicitly installed.
+google-cloud-bigquery
+
+# Data manipulation library, used by bigquery.Client.to_dataframe()
+pandas
+
+# Used for type hinting and data validation in ADK and other libraries
+pydantic
+
+PyYAML
+db-dtypes
